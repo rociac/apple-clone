@@ -1,6 +1,28 @@
+/* nav */
+
+.nav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    height: 3rem;
+    display: flex;
+    width: 100%;
+    background-color: red;
+
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
 
 .hero {
     background-image: url("/assets/img/your_verse_hero.jpg");
     background-repeat: no-repeat;
+    background-size: cover; 
     height: 80rem;
+    position: absolute;
+    width: 100%;
 }
+
