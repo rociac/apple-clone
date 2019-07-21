@@ -77,6 +77,7 @@ input[type="text"]{
     height: 2.5rem;
     width: 12rem;
     padding-left: 2.7rem;
+    transition: width 0.4s;
 }
 
 input[type="text"]:focus{
@@ -84,7 +85,7 @@ input[type="text"]:focus{
     width: 18rem;
     background: url(/assets/img/search_icon2.png) 10px 50% no-repeat, white;
     background-size: 13px 13px; 
-    
+    transition: width 0.4s;
 }
 
 .site-header {
