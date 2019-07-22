@@ -116,7 +116,7 @@ input[type="text"]:focus{
     padding: 1rem 0 3rem;
   }
   
-  .site__header.home {
+  .site__header.main {
     background-image: url(/assets/img/your_verse_hero.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
