@@ -88,7 +88,7 @@ body{
     justify-content: space-between;
 }
 
-input[type="text"]{
+input[type="search"]{
     margin: 0 auto;
     background: url(../img/search_icon.png) 10px 50% no-repeat, linear-gradient(rgb(131, 131, 131) 70%,rgb(112, 112, 112) 50%) no-repeat;
     background-size: 13px 13px;
@@ -102,7 +102,7 @@ input[type="text"]{
     transition: width 0.4s;
 }
 
-input[type="text"]:focus{
+input[type="search"]:focus{
     outline: none;
     width: 18rem;
     background: url(../img/search_icon2.png) 10px 50% no-repeat, white;
