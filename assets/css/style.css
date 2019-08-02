@@ -1,0 +1,283 @@
+/* base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-weight: 300;
+}
+
+body{
+    font-size: 1.25rem;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+/* nav */
+
+
+.nav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    height: 4.3rem;
+    display: flex;
+    width: 73%;
+    background-color: #707070;
+    background: linear-gradient(rgb(131, 131, 131) 50%,rgb(112, 112, 112) 50%);
+    margin: 8.3rem auto;
+    border-radius: 4px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    border-top: 1px solid rgb(144, 144, 144);
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.nav__list li {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    border-left: 1px solid rgb(77, 76, 76);
+}
+
+.nav__list li:first-child {
+    border-left: none;
+    height: 100%;
+}
+
+.nav__list li:last-of-type {
+    border-left: none;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-logo img {
+    width: 2rem;
+}
+
+.nav__list li a {
+    color: rgb(233, 233, 233);
+    height: 100%;
+    text-decoration: none;
+}
+
+.nav__list li:not(:last-child):hover {
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+.nav-last {
+    border-right:1px solid rgb(77, 76, 76);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="search"]{
+    margin: 0 auto;
+    background: url(../img/search_icon.png) 10px 50% no-repeat, linear-gradient(rgb(131, 131, 131) 70%,rgb(112, 112, 112) 50%) no-repeat;
+    background-size: 13px 13px;
+    border: none;
+    border-top: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(144, 144, 144);
+    border-radius: 1.2rem;
+    height: 2.5rem;
+    width: 12rem;
+    padding-left: 2.7rem;
+    transition: width 0.4s;
+}
+
+input[type="search"]:focus{
+    outline: none;
+    width: 18rem;
+    background: url(../img/search_icon2.png) 10px 50% no-repeat, white;
+    background-size: 13px 13px; 
+    transition: width 0.4s;
+}
+
+/* main content */
+
+.site__header {
+    padding: 1rem 0 3rem;
+  }
+  
+  .site__header.main {
+    background-image: url(../img/your_verse_hero.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 57rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__top {
+    height: 10rem;
+    overflow: hidden;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+  }
+
+  .top-image {
+      display: inline-block;
+      background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_medium.png);
+      width: 100rem;
+      height: 90px;
+  }
+
+  .header__center {
+    margin-top: -2.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .center-image {
+    display: inline-block;
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_medium.png);
+    height: 80px;
+    width: 100rem;
+  }
+
+  .header__bottom {
+    height: 31px;
+    overflow: hidden;
+  }
+
+  .bottom-image{
+    display: inline-block;
+    margin: 0 18px 25px;
+    height: 70px;
+    background-image: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
+    width: 100rem;
+  }
+
+  .bottom-image:hover {
+    margin-top: -32px;
+  }
+
+  /* aside */
+
+  .aside-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .aside__box {
+      width: 25%;
+      height: 22rem;
+      margin: 1px;
+  }
+
+  .box-1 a{
+      background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+      width: 36.4rem;
+      height: 22rem;
+      display: inline-block;
+      background-size: cover;
+  }
+
+  .box-1 {
+    background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+    width: 100%;
+    height: 22rem;
+    display: inline-block;
+    background-size: cover;
+}
+
+.box-2 {
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+    width: 100%;
+    height: 22rem;
+    display: inline-block;
+    background-size: cover;
+}
+
+.box-3 {
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
+    width: 100%;
+    height: 22rem;
+    display: inline-block;
+    background-size: cover;
+}
+
+.box-4 {
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+    width: 100%;
+    height: 22rem;
+    display: inline-block;
+    background-size: cover;
+}
+
+/* footer */
+
+  .footer {
+      display: flex;
+      flex-direction: column;
+      height: 10rem;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 1rem;
+      color: #6e6e6e;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer__left {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5rem;
+  }
+
+  .footer__left-bottom {
+      margin-top: 1rem;
+  }
+
+  .footer__right {
+    margin-left: -25rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  
+  }
+
+  .links {
+    color: #08c;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+    padding: 0 7px;
+  }
+
+  .border-0 {
+      border: none;
+  }
+  
+  .p-0 {
+      padding: 0;
+  }
+
+  
