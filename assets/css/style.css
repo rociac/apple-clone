@@ -182,46 +182,46 @@ input[type="search"]:focus{
   }
 
   .aside__box {
-      width: 100%;
+      width: 25%;
       height: 22rem;
       margin: 1px;
   }
 
   .box-1 a{
       background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
-      width: 37.275rem;
+      width: 36.4rem;
       height: 22rem;
       display: inline-block;
       background-size: cover;
   }
 
-  .box-1 a{
+  .box-1 {
     background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
-    width: 37.275rem;
+    width: 100%;
     height: 22rem;
     display: inline-block;
     background-size: cover;
 }
 
-.box-2 a{
+.box-2 {
     background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
-    width: 37.275rem;
+    width: 100%;
     height: 22rem;
     display: inline-block;
     background-size: cover;
 }
 
-.box-3 a{
+.box-3 {
     background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
-    width: 37.275rem;
+    width: 100%;
     height: 22rem;
     display: inline-block;
     background-size: cover;
 }
 
-.box-4 a{
+.box-4 {
     background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
-    width: 37.275rem;
+    width: 100%;
     height: 22rem;
     display: inline-block;
     background-size: cover;
@@ -231,17 +231,66 @@ input[type="search"]:focus{
 
   .footer {
       display: flex;
+      flex-direction: column;
       height: 10rem;
-      justify-content: space-between;
-      width: 73%;
+      width: 100%;
       margin: 0 auto;
-      font-size: 1.1rem;
+      font-size: 1rem;
       color: #6e6e6e;
   }
 
-  .footer__right,
+  .footer__bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer__left {
+      display: flex;
+      flex-direction: column;
+      margin-left: 5rem;
+  }
+
+  .footer__left-bottom {
+      margin-top: 1rem;
+  }
+
+  .footer__right {
+    margin-left: -25rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  
+  }
+
+  .links {
+    color: #08c;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+    padding: 0 7px;
+  }
+
+  .border-0 {
+      border: none;
+  }
+  
+  .p-0 {
+      padding: 0;
+  }
+
+  /* .footer__right,
   .footer__left {
     margin-top: 2em;
+  }
+
+  .footer__bottom {
+      display: flex;
+  }
+
+  .footer__left {
+      display: flex;
   }
 
   .footer a {
@@ -271,6 +320,6 @@ input[type="search"]:focus{
       border-right: none;
   }
 
-  .footer__bottom {
+  .footer__bottom-right {
       margin-top: 1.5rem;
-  }
+  } */
