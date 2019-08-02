@@ -280,46 +280,4 @@ input[type="search"]:focus{
       padding: 0;
   }
 
-  /* .footer__right,
-  .footer__left {
-    margin-top: 2em;
-  }
-
-  .footer__bottom {
-      display: flex;
-  }
-
-  .footer__left {
-      display: flex;
-  }
-
-  .footer a {
-      text-decoration: none;
-      color: #08c;
-  }
-
-  .footer a:hover {
-      text-decoration: underline;
-  }
-
-  .footer__right ul {
-      display: flex;
-      list-style: none;
-      align-items: center;
-      text-align: center;
-  }
   
-  .footer__right li {
-    margin-right: 0.7rem;
-    padding-right: 0.6rem;
-    border-right: 1px solid #ccc;
-    height: 1.4rem;
-  }
-
-  .footer__right li:last-of-type {
-      border-right: none;
-  }
-
-  .footer__bottom-right {
-      margin-top: 1.5rem;
-  } */
